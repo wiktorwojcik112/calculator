@@ -1,0 +1,127 @@
+.action {
+	background: #037BFF;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	height: 25px;
+	width: 25px;
+	font-weight: bold;
+}
+
+.number {
+	background: darkgray;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	height: 25px;
+	width: 25px;
+	font-weight: bold;
+}
+
+.dest {
+	background: #EB3323;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	height: 25px;
+	width: 25px;
+	font-weight: bold;
+}
+
+.beta {
+	background: #E4B34C;
+	border-radius: 50px;
+	border: none;
+	color: white;
+	height: 18px;
+	width: 50px;
+	font-weight: bold;
+}
+
+.more {
+	background: lightgray;
+	border-radius: 50px;
+	border: none;
+	height: 25px;
+	font-weight: bold;
+}
+
+.clear {
+	background: white;
+	border: none;
+	height: 25px;
+	width: 25px;
+	color: white;
+}
+
+.centerNewsletter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 50px;
+	background: black;
+	color: white;
+	width: 500px;
+	height: 140px;
+}
+
+.textfield {
+	background: white;
+	border-radius: 10px;
+	border-color: black;
+	border-width: 1px;
+	height: 25px;
+	width: 100x;
+}
+
+body {
+	background: white;
+	font-family: "Helvetica", "Arial";
+}
+
+.block {
+	display: block;
+	height: 100px
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centerProduct {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 50px;
+	background: black;
+	color: white;
+	width: 500px;
+	height: 470px;
+}
+
+.left {
+	float: left;
+	width: 50%;
+	text-align: right;
+}
+
+.right {
+	float: right;
+	width: 49%;
+	text-align: left;
+}
+
+.left-item {
+	float: left;
+	width: 10%;
+	text-align: right;
+}
+
+.right-item {
+	float: right;
+	width: 86%;
+}

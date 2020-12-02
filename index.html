@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator by WiktorDev</title>
+		<script type="text/javascript" src="./script.js"></script>
+		<link rel="stylesheet" href="./styles.css">
+	</head>
+	<body>
+		<center>
+		<h1>Calculator by WiktorDev</h1>
+		<label>Don't expect anything spectacular.</label>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<input type="text" id="field"/>
+		<br>
+		<br>
+		<br>
+		<div class="left">
+		<input type="button" value="9" onclick="insertNumber(9)" class="number">
+		<input type="button" value="8" onclick="insertNumber(8)" class="number">
+		<input type="button" value="7" onclick="insertNumber(7)" class="number">
+		<br>
+		<br>
+		<input type="button" value="6" onclick="insertNumber(6)" class="number">
+		<input type="button" value="5" onclick="insertNumber(5)" class="number">
+		<input type="button" value="4" onclick="insertNumber(4)" class="number">
+		<br>
+		<br>
+		<input type="button" value="3" onclick="insertNumber(3)" class="number">
+		<input type="button" value="2" onclick="insertNumber(2)" class="number">
+		<input type="button" value="1" onclick="insertNumber(1)" class="number">
+		<br>
+		<br>
+		<input type="button" value="0" onclick="insertNumber(0)" class="number">
+		<input type="button" value="" class="clear" disabled>
+		</div>
+		<div class="right">
+		<input type="button" value="+" onclick='action("+")' class="action">
+		<input type="button" value="-" onclick='action("-")' class="action">
+		<br>
+		<br>
+		<input type="button" value="x" onclick='action("x")' class="action">
+		<input type="button" value="/" onclick='action("/")' class="action">
+		<br>
+		<br>
+		<input type="button" value="=" onclick='equal()' class="action">
+		<input type="button" value="CE" onclick='clear()' class="dest">
+		</div>
+		</center>
+	</body>
+</html>
